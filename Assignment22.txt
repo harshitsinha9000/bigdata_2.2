@@ -1,0 +1,22 @@
+-------Task 1
+
+vi max-tmp.txt
+
+10-01-1990,30
+14-01-1990,25
+15-01-1990,27
+16-01-1990,26
+19-01-1990,28
+
+
+hadoop fs -put max-tmp.txt /user/acadgild/hadoop
+
+
+hadoop fs -ls /user/acadgild/hadoop
+
+
+
+
+--------Task 2 
+
+hadoop fs -chmod -R 770 /user/acadgild/hadoop/word_count.txt
